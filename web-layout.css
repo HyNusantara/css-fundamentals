@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 12px 24px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}
+
+section > aside {
+    width: 300px;
+    border: 1px solid black;
+    position: absolute;
+}
+
+section > aside > nav > a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    border: 1px dashed black;
+    margin-left: 300px;
+}
